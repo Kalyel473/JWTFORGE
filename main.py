@@ -1,19 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-================================================================================
- JWTForge BR v1.0  ·  CyberGuard Academy  ·  github.com/Kalyel473
- Ferramenta educacional de exploração de JSON Web Tokens (JWT).
---------------------------------------------------------------------------------
- AVISO LEGAL: uso EXCLUSIVAMENTE educacional e em sistemas próprios ou com
- autorização por escrito. Uso não autorizado é crime no Brasil (Lei 12.737/2012
- e LGPD 13.709/2018). O autor não se responsabiliza pelo uso indevido.
---------------------------------------------------------------------------------
- Criptografia 100% via biblioteca padrão (hmac/hashlib/base64). NÃO usa PyJWT
- de propósito — PyJWT bloqueia ataques como alg:none, o que mataria o objetivo
- didático. Única dependência externa: colorama. (cryptography é opcional.)
-================================================================================
-"""
+
 
 import os
 import sys
